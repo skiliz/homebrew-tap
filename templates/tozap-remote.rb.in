@@ -1,6 +1,6 @@
 # Template for Casks/tozap-remote.rb when releases are Developer ID signed and notarized. to.zap's
 # scripts/release.sh fills in the version and the SHA-256 of the published release archive; never edit
-# those values by hand. Ad-hoc signed releases use zap-remote-adhoc.rb.in instead.
+# those values by hand. Ad-hoc signed releases use tozap-remote-adhoc.rb.in instead.
 cask "tozap-remote" do
   version "@VERSION@"
   sha256 "@SHA256@"
