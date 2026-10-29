@@ -1,6 +1,6 @@
 # Template for Casks/zap-remote.rb when releases are ad-hoc signed and NOT notarized
-# (ZAP_RELEASE_MODE=adhoc). ZAP's scripts/release.sh fills in @VERSION@ and @SHA256@ from the published
-# release archive; never edit those values by hand. The caveats explain Apple's own approval step; this cask
+# (ZAP_RELEASE_MODE=adhoc). ZAP's scripts/release.sh fills in the version and the SHA-256 of
+# the published release archive; never edit those values by hand. The caveats explain Apple's own approval step; this cask
 # never removes the quarantine attribute or bypasses Gatekeeper.
 cask "zap-remote" do
   version "@VERSION@"
