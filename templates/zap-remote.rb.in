@@ -1,5 +1,6 @@
-# Template for Casks/zap-remote.rb. ZAP's scripts/release.sh fills in @VERSION@ and @SHA256@ from the
-# published, notarized release archive; never edit those values by hand.
+# Template for Casks/zap-remote.rb when releases are Developer ID signed and notarized. ZAP's
+# scripts/release.sh fills in @VERSION@ and @SHA256@ from the published release archive; never edit those
+# values by hand. Ad-hoc signed releases use zap-remote-adhoc.rb.in instead.
 cask "zap-remote" do
   version "@VERSION@"
   sha256 "@SHA256@"
@@ -15,7 +16,7 @@ cask "zap-remote" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ZAP Remote.app"
 
