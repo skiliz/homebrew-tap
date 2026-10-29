@@ -23,6 +23,6 @@ cask "zap-remote" do
   # Only with `brew uninstall --zap`: removes the pairing and preferences. Ordinary upgrades keep them.
   zap trash: [
     "~/Library/Application Support/ZAP Remote",
-    "~/Library/Preferences/local.fireremote.app.plist",
+    "~/Library/Preferences/local.zap.app.plist",
   ]
 end
