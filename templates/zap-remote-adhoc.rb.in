@@ -31,7 +31,8 @@ cask "zap-remote" do
     ZAP is free, open-source software. It is not signed with an Apple Developer ID
     or notarized by Apple, so macOS blocks it the first time it opens and again
     after each upgrade. To allow it:
-      1. Open ZAP Remote from Applications and click Done in the warning.
+      1. Open ZAP Remote from Applications and click Done in the warning
+         (on macOS 14 Sonoma: click Cancel, or Control-click the app and choose Open).
       2. Within about an hour, open System Settings > Privacy & Security,
          click "Open Anyway" under Security and enter your login password.
       3. Click Open to confirm.
