@@ -5,8 +5,6 @@ a product of Cosmos, open source.
 
 ## to.zap
 
-**Not available yet:** the cask is added here when to.zap's first release is published. Then:
-
 ```sh
 brew install --cask skiliz/tap/tozap-remote
 ```
